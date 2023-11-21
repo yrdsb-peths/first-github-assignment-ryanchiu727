@@ -1,6 +1,6 @@
 public class Student {
     public String firstName;
-    public String animal;
+    public String favFood;
     public Student(String name, String favFood)
     {
       firstName = name;
