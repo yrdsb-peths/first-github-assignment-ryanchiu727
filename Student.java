@@ -1,20 +1,20 @@
 public class Student {
     public String firstName;
-    public String favFood;
-    public Student(String name, String favFood)
+    public String favoriteFood;
+    public Student(String name, String favoriteFood)
     {
       firstName = name;
-      food = favFood;
+      food = favoriteFood;
     }
     public String getName()
     {
       return firstName;
     }
-    public String favFood()
+    public String favoriteFood()
     {
-      return animal;
+      return food;
     }
     public String toString()
     {
-      return firstName + "'s favourite food is " + favFood;
+      return firstName + "'s favourite food is " + favoriteFood;
 }
